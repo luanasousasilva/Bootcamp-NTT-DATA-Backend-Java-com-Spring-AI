@@ -1,3 +1,5 @@
+package ClasseEncapsulamento;
+
 public class PetMachine {
 
     private boolean clean = true;
