@@ -1,0 +1,54 @@
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+
+# IntelliJ default ignored files
+/shelf/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Query files
+/queries/
+
+# Datasource local storage
+/dataSources/
+/dataSources.local.xml
+
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================
+# Maven
+# ==========================
+target/
+
+# ==========================
+# Gradle
+# ==========================
+.gradle/
+build/
+
+# ==========================
+# IntelliJ Build Output
+# ==========================
+out/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Operating System
+# ==========================
+.DS_Store
+Thumbs.db
