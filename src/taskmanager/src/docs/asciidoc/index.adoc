@@ -1,0 +1,54 @@
+= Task Manager API
+:toc: left
+:toclevels: 2
+:sectanchors:
+
+Esta documentação é gerada automaticamente pelos testes de integração usando Spring REST Docs.
+
+== Tarefas
+
+=== Criar tarefa
+
+`POST /tasks`
+
+include::{snippets}/tasks-create/curl-request.adoc[]
+
+include::{snippets}/tasks-create/http-response.adoc[]
+
+=== Listar tarefas
+
+`GET /tasks`
+
+include::{snippets}/tasks-list/curl-request.adoc[]
+
+include::{snippets}/tasks-list/http-response.adoc[]
+
+=== Buscar tarefa por ID
+
+`GET /tasks/{id}`
+
+include::{snippets}/tasks-get-by-id/curl-request.adoc[]
+
+include::{snippets}/tasks-get-by-id/http-response.adoc[]
+
+=== Atualizar tarefa
+
+`PUT /tasks/{id}`
+
+include::{snippets}/tasks-update/curl-request.adoc[]
+
+include::{snippets}/tasks-update/http-response.adoc[]
+
+=== Excluir tarefa
+
+`DELETE /tasks/{id}`
+
+include::{snippets}/tasks-delete/curl-request.adoc[]
+
+include::{snippets}/tasks-delete/http-response.adoc[]
+
+== Erros
+
+Quando uma tarefa não é encontrada, a API retorna `404 Not Found`.
+
+include::{snippets}/tasks-not-found/http-response.adoc[]

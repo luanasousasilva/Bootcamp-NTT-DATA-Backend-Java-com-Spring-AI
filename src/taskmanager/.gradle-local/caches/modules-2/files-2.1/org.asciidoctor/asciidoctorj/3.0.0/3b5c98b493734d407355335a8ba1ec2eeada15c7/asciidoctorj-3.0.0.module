@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.asciidoctor",
+    "module": "asciidoctorj",
+    "version": "3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.asciidoctor",
+          "module": "asciidoctorj-api",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jruby",
+          "module": "jruby",
+          "version": {
+            "requires": "9.4.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asciidoctorj-3.0.0.jar",
+          "url": "asciidoctorj-3.0.0.jar",
+          "size": 1918069,
+          "sha512": "2d9b0d3a98e15f0131078669e12c537a111558454b25d1edcdbdc1ce14f6a3be8372042cd510c4cd83deaad69f308594ce2717b16117aeea05e4d90c4a4c991d",
+          "sha256": "866afb68d894497e9dc97a2c8c532668f97e5efa4ad7da09494cbbe96b526944",
+          "sha1": "735481172f859092a9cd848543adf73c9bf7846e",
+          "md5": "74086828a8a15a80c520cff447cf71e3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.asciidoctor",
+          "module": "asciidoctorj-api",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jruby",
+          "module": "jruby",
+          "version": {
+            "requires": "9.4.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asciidoctorj-3.0.0.jar",
+          "url": "asciidoctorj-3.0.0.jar",
+          "size": 1918069,
+          "sha512": "2d9b0d3a98e15f0131078669e12c537a111558454b25d1edcdbdc1ce14f6a3be8372042cd510c4cd83deaad69f308594ce2717b16117aeea05e4d90c4a4c991d",
+          "sha256": "866afb68d894497e9dc97a2c8c532668f97e5efa4ad7da09494cbbe96b526944",
+          "sha1": "735481172f859092a9cd848543adf73c9bf7846e",
+          "md5": "74086828a8a15a80c520cff447cf71e3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-3.0.0-javadoc.jar",
+          "url": "asciidoctorj-3.0.0-javadoc.jar",
+          "size": 1000386,
+          "sha512": "d34cd482f386c630cf3fbb4d0a5714b0834b95ef65fe2c2031ef314aa2bbabed2f51b5aeedddc8e2fbbd807556d3d5916d11cb4f58e426d4dc6cc76193e29a2a",
+          "sha256": "1e91a7afe5f5a7d3354089d1360df943843a3aae8c82e172e745f0a914246da9",
+          "sha1": "d7b8e78ca11bb9574e43af6878725a76e0accf7a",
+          "md5": "15b6c64a60eee7bf6a3fb8264afc93b4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-3.0.0-sources.jar",
+          "url": "asciidoctorj-3.0.0-sources.jar",
+          "size": 84102,
+          "sha512": "9006c1cff3677fd31086bfcc6410add7338ef4b590dff1b0b4fcdafcb7894ab8d9bddbd34f013d04b790a1b3acb0e1840e861a657f992d982a1baf0895173733",
+          "sha256": "c88d21ebdf68efcdb55716615bcbbc6946b2dfb1d0186fac0d6ca2cc13241f14",
+          "sha1": "5927af918119fcb5826db01bedbe1db0676ab74f",
+          "md5": "c567d05dcfde6d25e8c98482b9170730"
+        }
+      ]
+    }
+  ]
+}

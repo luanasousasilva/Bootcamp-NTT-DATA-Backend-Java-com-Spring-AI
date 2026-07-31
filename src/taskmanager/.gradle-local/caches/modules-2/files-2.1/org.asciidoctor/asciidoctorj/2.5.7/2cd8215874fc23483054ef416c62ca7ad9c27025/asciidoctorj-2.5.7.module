@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.asciidoctor",
+    "module": "asciidoctorj",
+    "version": "2.5.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.asciidoctor",
+          "module": "asciidoctorj-api",
+          "version": {
+            "requires": "2.5.7"
+          }
+        },
+        {
+          "group": "org.jruby",
+          "module": "jruby",
+          "version": {
+            "requires": "9.3.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asciidoctorj-2.5.7.jar",
+          "url": "asciidoctorj-2.5.7.jar",
+          "size": 1930111,
+          "sha512": "fcdbf78ac9c5f4bdecc1480aaaa28b8b2a00d89ecc858fdbc4ebf57c3d7d7e841d90d12aa1fee2ad1a03e9071a1a4733e9d4bb5985411422c130de43501215e3",
+          "sha256": "17deb7ab1ea8e62f43e7c85843b252e684e9000ca539fdbc1a903748623496b2",
+          "sha1": "8667fe77c2ffb5270a17389e6fe76ea89b1087e4",
+          "md5": "0bfe80189a03a3f5ebd255c5e021f460"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.beust",
+          "module": "jcommander",
+          "version": {
+            "requires": "1.82"
+          }
+        },
+        {
+          "group": "org.asciidoctor",
+          "module": "asciidoctorj-api",
+          "version": {
+            "requires": "2.5.7"
+          }
+        },
+        {
+          "group": "org.jruby",
+          "module": "jruby",
+          "version": {
+            "requires": "9.3.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asciidoctorj-2.5.7.jar",
+          "url": "asciidoctorj-2.5.7.jar",
+          "size": 1930111,
+          "sha512": "fcdbf78ac9c5f4bdecc1480aaaa28b8b2a00d89ecc858fdbc4ebf57c3d7d7e841d90d12aa1fee2ad1a03e9071a1a4733e9d4bb5985411422c130de43501215e3",
+          "sha256": "17deb7ab1ea8e62f43e7c85843b252e684e9000ca539fdbc1a903748623496b2",
+          "sha1": "8667fe77c2ffb5270a17389e6fe76ea89b1087e4",
+          "md5": "0bfe80189a03a3f5ebd255c5e021f460"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-2.5.7-javadoc.jar",
+          "url": "asciidoctorj-2.5.7-javadoc.jar",
+          "size": 1131320,
+          "sha512": "11b57257e5b03f82e9bbc68ae0ae61b72d757d2b094675fb161e2735f81e2266ad2ed33b33bbb5e30521ca626af3ba7d77b43c422e04365c18e4bfcd2a60c034",
+          "sha256": "c5d11b6626b241a68b7bd3d77c17ea206c31c4b328c0f5855ecbe460ae4f5fc9",
+          "sha1": "d658c0f20527ec4d3b7c9fb830fbfff4b192a65e",
+          "md5": "5130cded27048311ff7d2d64fb3607e6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-2.5.7-sources.jar",
+          "url": "asciidoctorj-2.5.7-sources.jar",
+          "size": 91422,
+          "sha512": "34a393b211cb9c66367346455051bf5c4628247853a5e6b015f80037bbc7d2fb51d6fbe001ba0ee15ebab6f48595114fabb701c02ae49da92eaccd6fb16c22c2",
+          "sha256": "548df988a0c59fc1f966c66facf993b54c7bb2abb05df91c30cdefc73625f6bf",
+          "sha1": "b9576e491b9d43b75653fa1950eca4368e376dfe",
+          "md5": "27c4408092ab507bde69a1c13514b9b0"
+        }
+      ]
+    }
+  ]
+}
